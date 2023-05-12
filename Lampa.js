@@ -14,17 +14,13 @@ class Lampa {
     this.sELEM = this.elem.children("span");
     this.#allapot = true;
     this.elem.on("click", () => {
-      if (this.#allapot == true) {
-        this.esemenyTrigger();
-      }
-      this.#allapot = false;
+      this.setAllapot()
     });
   }
   setElem(ertek) {
     this.sELEM.html(ertek);
   }
   setAllapot(){
-
     this.szinBeallit()
   }
   szinBeallit(){
