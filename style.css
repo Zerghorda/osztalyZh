@@ -1,0 +1,30 @@
+footer {
+  text-align: center;
+}
+header {
+  text-align: center;
+}
+.elem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.fel {
+  background-color: yellow;
+  display: grid;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.le {
+  background-color: green;
+  display: grid;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+aside{align-self: center;
+text-align: center;}
